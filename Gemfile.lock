@@ -139,6 +139,9 @@ GEM
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    passenger (6.0.14)
+      rack
+      rake (>= 0.8.1)
     pg (1.4.3)
     public_suffix (5.0.0)
     puma (5.6.5)
@@ -263,6 +266,7 @@ DEPENDENCIES
   groupdate
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  passenger
   pg
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
